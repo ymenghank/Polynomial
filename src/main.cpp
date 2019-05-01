@@ -29,7 +29,7 @@ int main()
 	Polynomial poly3 = Monomial(1, 1) - 1; // poly3 = x - 1
 	
 	std::cout << "(" << poly1 << ")(" << 3 << ") = " << poly1(3) << std::endl;
-	std::cout << "(" << poly1 << ")(" << 3.5 << ") = " << poly1(3.14) << std::endl;
+	std::cout << "(" << poly1 << ")(" << 3.14 << ") = " << poly1(3.14) << std::endl;
 	std::cout << "(" << poly1 << ")(" << poly3 << ") = " << poly1(poly3) << std::endl;
 	
 	return 0;

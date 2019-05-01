@@ -10,7 +10,7 @@
 class Polynomial
 {
 public:
-	Polynomial(int=0);
+	Polynomial(double=0);
 	Polynomial(const Monomial&);
 	Polynomial(const Polynomial&);
 	~Polynomial();

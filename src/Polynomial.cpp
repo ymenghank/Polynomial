@@ -1,7 +1,7 @@
 
 #include "Polynomial.h"
 
-Polynomial::Polynomial(int t_constant)
+Polynomial::Polynomial(double t_constant)
 {
 	first = new MonomialNode;
 	first->item = Monomial(t_constant, 0);
